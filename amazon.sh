@@ -1,6 +1,7 @@
-apt update 
-apt install apache2 
-cd /var/www/html : all frontend code 
+#! /bin/bash
+sudo -i
+apt update
+apt install nginx  -y
+cd /var/www/html/
 git clone https://github.com/Ironhack-Archive/online-clone-amazon.git
 mv online-clone-amazon/* .
-
